@@ -1,0 +1,28 @@
+.button {
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 4px 15px;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: 1rem 5px;
+  min-width: 6rem;
+  min-height: 2rem;
+}
+
+.primary {
+  composes: button;
+  background-color: green;
+  color: antiquewhite;
+  border: 1px solid green;
+}
+.secondary {
+  composes: button;
+  border: 1px solid black;
+}
